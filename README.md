@@ -1,5 +1,5 @@
 # Frameworky's framework
-UI Framework 
+UI Framework
 
 ## Installing:
 
@@ -24,15 +24,19 @@ npm start
 ## documentation
 
 ### The project has mainly three directories:
+``` bash
 1- assets/ : this will holds the generated assets files by gulp
 2- src/ : this will holds the source files where you will work on directly, like the SASS files and the js files.
 3- component/ : this will hold the html page parts, like the navbar and the footer.
+```
 
 ### The html components work on this way:
+``` bash
 1- each component should have a <template/> wrapper, inside it you will implement the needed html
 2- the page where you include the component in should have:
   a- in the <head/> you will add a <link rel="import" ref="$reference" href="./components/$component_name.html">
   b- in the body <$reference-template />
+  ```
 
 #### example
 in the "/components/navbar.html":
