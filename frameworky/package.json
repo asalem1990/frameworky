@@ -1,0 +1,28 @@
+{
+  "name": "frameworky",
+  "description": "A framework project",
+  "version": "1.0.0",
+  "author": "Abdullah Mah'd Salem <hey@ninjitsu.co>",
+  "private": true,
+  "scripts": {
+    "start": "live-server"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bootstrap": "latest",
+    "gulp": "latest",
+    "gulp-clean": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-js-import": "latest",
+    "gulp-rename": "latest",
+    "gulp-sass": "latest",
+    "gulp-series": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "jquery": "latest",
+    "popper": "latest",
+    "live-server": "latest"
+  }
+}
