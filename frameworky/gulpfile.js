@@ -23,13 +23,13 @@ gulp.task("watch", function() {
 });
 
 gulp.task('clean', function() {
-  gulp.src('assets/css/*', {
+  gulp.src('assets/css/app.min.css', {
       read: true
     })
     .pipe(clean())
     .on('error', gutil.log);
 
-  gulp.src('assets/js/*', {
+  gulp.src('assets/js/app.min.js', {
       read: true
     })
     .pipe(clean())
